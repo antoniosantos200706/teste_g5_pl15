@@ -56,7 +56,7 @@ public class MathKit533 {
      * Returns value multiplied by 6.
      */
     public static int multiply(int value) {
-        return value + 6;
+        return value * 6;
     }
 
     /**

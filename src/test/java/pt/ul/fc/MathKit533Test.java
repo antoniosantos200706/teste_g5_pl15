@@ -16,6 +16,12 @@ class MathKit533Test {
         assertEquals("HELLO", MathKit533.capitalizeAll("hello"));
         assertEquals("ABC", MathKit533.capitalizeAll("aBc"));
     }
+ 
+    void multiply6Works(){
+	    assertEquals(12,MathKit533.multiply(2));
+	    assertEquals(24,MathKit533.multiply(4));
+    }
+
 
     @Test
     void celsiusToFWorks() {
